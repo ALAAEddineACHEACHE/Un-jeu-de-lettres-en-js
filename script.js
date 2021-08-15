@@ -48,7 +48,6 @@ L.addEventListener("click",function(){
  //Deuxieme Methode l'écoute du clavier en utlisant le convertissement 
  //des codes ASCI II
 window.addEventListener("keydown",function(event){
-    console.log(event.keyCode);
     const currentAudio = document.querySelector(`audio[data-key="${event.keyCode}"]`);
     currentAudio.play();
 })
