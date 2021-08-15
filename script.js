@@ -16,9 +16,8 @@ let sixthaudio = document.getElementById("h");
 let seventhaudio=document.getElementById("j");
 let eighthaudio=document.getElementById("k");
 let ninethaudio=document.getElementById("l");
-A.addEventListener("keydown",function(event){
+A.addEventListener("click",function(event){
     event.preventDefault();
-    console.log(event.key);
     firstaudio.play();
 });
 S.addEventListener("click",function(){
